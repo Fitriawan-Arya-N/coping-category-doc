@@ -2,7 +2,7 @@
 
 
 # 
-- Meditation
+# Meditation
 endpoint: https://moodify-r25es5rdqq-et.a.run.app/copingCategory/type/meditation
 - output:
 
@@ -48,4 +48,291 @@ endpoint: https://moodify-r25es5rdqq-et.a.run.app/copingCategory/type/meditation
 }
 ```
 
+# Music
+endpoint: https://moodify-r25es5rdqq-et.a.run.app/copingCategory/type/music
+- output:
 
+```bash
+{
+    "recommendations": {
+        "anger": {
+            "text_affirmation_first": [
+                "I acknowledge my feelings, and I will handle them wisely.",
+                "I have the strength to face this challenge with calmness and self-control.",
+                "My feelings are valid, and I will find healthy ways to express them.",
+                "I value myself and will give myself space to feel and process these emotions.",
+                "I have the ability to calm myself and find constructive solutions."
+            ],
+            "text_affirmation_last": [
+                "I value myself and will treat myself with gentleness and compassion.",
+                "I am grateful for the opportunity to acknowledge and release my emotions.",
+                "I choose to leave my anger behind and move forward with peace.",
+                "I understand that I deserve peace and happiness.",
+                "I am thankful for my mental health and the ability to grow from this experience."
+            ],
+            "music": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/anger/music/anger%20music.mp3"
+            ]
+        },
+        "fear": {
+            "text_affirmation_first": [
+                "Every step I take, I grow braver",
+                "I trust in my ability to handle whatever comes my way.",
+                "I have the ability to face any challenges that come my way.",
+                "Fear is a natural part of life, but it does not dictate my actions or my happiness.",
+                "Every step I take, I grow braver."
+            ],
+            "text_affirmation_last": [
+                "Fear is a natural part of growth and transformation.",
+                "I choose to focus on the positive aspects of my life and let go of fear and worry.",
+                "I embrace my fears as part of the growth process.",
+                "Fear is a temporary feeling that does not control me.",
+                "I know that every step I take makes me more courageous and confident."
+            ],
+            "music": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/fear/music/fear%20music.mp3"
+            ]
+        },
+        "happy": {
+            "text_affirmation_first": [
+                "I accept myself for who I am and create peace of mind and of heart.",
+                "I’m meeting my own definition of success.",
+                "As long as the person I am today is even the tiniest bit better than the person I was yesterday.",
+                "Happiness is a choice, and today I choose to be happy.",
+                "I am turning UP the volume of positivity."
+            ],
+            "text_affirmation_last": [
+                "Incredible transformations are happening in me and within my life right now.",
+                "Note to self: I am going to make you so proud.",
+                "One small positive thought in the morning can change my whole day.",
+                "I’m rising above the thoughts that are trying to make me angry or afraid.",
+                "My life has meaning. What I do has meaning. My actions are meaningful."
+            ],
+            "music": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/happy/music/happy%20music.mp3"
+            ]
+        },
+        "joy": {
+            "text_affirmation_first": [
+                "You radiate joy and positivity wherever you go.",
+                "Your smile lights up the room effortlessly.",
+                "Happiness follows you like a shadow.",
+                "Your energy is contagious and uplifting.",
+                "You bring sunshine into everyone's life."
+            ],
+            "text_affirmation_last": [
+                "Your joy is a beacon of hope.",
+                "You spread cheer and laughter everywhere.",
+                "Your presence is a gift of happiness.",
+                "You are a source of boundless joy.",
+                "Your happiness inspires those around you."
+            ],
+            "music": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/joy/music/joy%20music.mp3"
+            ]
+        },
+        "love": {
+            "text_affirmation_first": [
+                "Your love brings joy and warmth to those around you.",
+                "You have a heart full of love that brightens every day.",
+                "Your caring nature makes the world a kinder place.",
+                "The love you share is a wonderful gift to everyone in your life.",
+                "You are deeply loved and appreciated for who you are."
+            ],
+            "text_affirmation_last": [
+                "Your joy and love light up every room you enter.",
+                "Your radiant love brings happiness to everyone around you.",
+                "Your radiant love brings happiness to everyone around you.\r\n3. The love and joy you share are truly contagious.",
+                "You spread positivity and love with your vibrant spirit.",
+                "Your cheerful love makes life brighter for everyone."
+            ],
+            "music": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/love/music/love%20music.mp3"
+            ]
+        },
+        "sadness": {
+            "text_affirmation_first": [
+                "My sadness and my depression do not define me.",
+                "I don’t have to be productive to see value in myself.",
+                "I am resilient in the face of any challenge.",
+                "I am in charge of my life, and my happiness and I feel happy and content.",
+                "Not everybody will understand my situation, and it is okay."
+            ],
+            "text_affirmation_last": [
+                "Today, I will face my fears and work to overcome them.",
+                "I will treat myself with kindness, patience, and respect.",
+                "I deserve love, life, and happiness.",
+                "My thoughts are peaceful and calm.",
+                "I let go of all negative thoughts and replace them with positive ones."
+            ],
+            "music": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/sadness/music/music_for_sadness.mp3"
+            ]
+        },
+        "neutral": {
+            "text_affirmation_first": [
+                "I am grateful for everything I have in my life.",
+                "I am independent and self-sufficient.",
+                "I can be whatever I want to be.",
+                "I am constantly growing and evolving into a better person.",
+                "I am inspiring people through my work."
+            ],
+            "text_affirmation_last": [
+                "I feed my spirit. I train my body. I focus my mind. This is my time.",
+                "What I have done today was the best I was able to do today. And for that, I am thankful.",
+                "I am going to forgive myself and free myself. I deserve to forgive and be forgiven.",
+                "I am an unstoppable force of nature.",
+                "Today will be a productive day."
+            ],
+            "music": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/neutral/music/neutral%20music.mp3"
+            ]
+        }
+    }
+}
+```
+
+# Podcast
+endpoint: https://moodify-r25es5rdqq-et.a.run.app/copingCategory/type/podcast
+- output:
+
+```bash
+{
+{
+    "recommendations": {
+        "anger": {
+            "text_affirmation_first": [
+                "I acknowledge my feelings, and I will handle them wisely.",
+                "I have the strength to face this challenge with calmness and self-control.",
+                "My feelings are valid, and I will find healthy ways to express them.",
+                "I value myself and will give myself space to feel and process these emotions.",
+                "I have the ability to calm myself and find constructive solutions."
+            ],
+            "text_affirmation_last": [
+                "I value myself and will treat myself with gentleness and compassion.",
+                "I am grateful for the opportunity to acknowledge and release my emotions.",
+                "I choose to leave my anger behind and move forward with peace.",
+                "I understand that I deserve peace and happiness.",
+                "I am thankful for my mental health and the ability to grow from this experience."
+            ],
+            "podcast": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/anger/podcast/anger%20podcast.mp3"
+            ]
+        },
+        "fear": {
+            "text_affirmation_first": [
+                "Every step I take, I grow braver",
+                "I trust in my ability to handle whatever comes my way.",
+                "I have the ability to face any challenges that come my way.",
+                "Fear is a natural part of life, but it does not dictate my actions or my happiness.",
+                "Every step I take, I grow braver."
+            ],
+            "text_affirmation_last": [
+                "Fear is a natural part of growth and transformation.",
+                "I choose to focus on the positive aspects of my life and let go of fear and worry.",
+                "I embrace my fears as part of the growth process.",
+                "Fear is a temporary feeling that does not control me.",
+                "I know that every step I take makes me more courageous and confident."
+            ],
+            "podcast": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/fear/podcast/fear%20podcast.mp3"
+            ]
+        },
+        "happy": {
+            "text_affirmation_first": [
+                "I accept myself for who I am and create peace of mind and of heart.",
+                "I’m meeting my own definition of success.",
+                "As long as the person I am today is even the tiniest bit better than the person I was yesterday.",
+                "Happiness is a choice, and today I choose to be happy.",
+                "I am turning UP the volume of positivity."
+            ],
+            "text_affirmation_last": [
+                "Incredible transformations are happening in me and within my life right now.",
+                "Note to self: I am going to make you so proud.",
+                "One small positive thought in the morning can change my whole day.",
+                "I’m rising above the thoughts that are trying to make me angry or afraid.",
+                "My life has meaning. What I do has meaning. My actions are meaningful."
+            ],
+            "podcast": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/happy/podcast/happy%20podcast.mp3"
+            ]
+        },
+        "joy": {
+            "text_affirmation_first": [
+                "You radiate joy and positivity wherever you go.",
+                "Your smile lights up the room effortlessly.",
+                "Happiness follows you like a shadow.",
+                "Your energy is contagious and uplifting.",
+                "You bring sunshine into everyone's life."
+            ],
+            "text_affirmation_last": [
+                "Your joy is a beacon of hope.",
+                "You spread cheer and laughter everywhere.",
+                "Your presence is a gift of happiness.",
+                "You are a source of boundless joy.",
+                "Your happiness inspires those around you."
+            ],
+            "podcast": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/joy/podcast/joy%20podcast.mp3"
+            ]
+        },
+        "love": {
+            "text_affirmation_first": [
+                "Your love brings joy and warmth to those around you.",
+                "You have a heart full of love that brightens every day.",
+                "Your caring nature makes the world a kinder place.",
+                "The love you share is a wonderful gift to everyone in your life.",
+                "You are deeply loved and appreciated for who you are."
+            ],
+            "text_affirmation_last": [
+                "Your joy and love light up every room you enter.",
+                "Your radiant love brings happiness to everyone around you.",
+                "Your radiant love brings happiness to everyone around you.\r\n3. The love and joy you share are truly contagious.",
+                "You spread positivity and love with your vibrant spirit.",
+                "Your cheerful love makes life brighter for everyone."
+            ],
+            "podcast": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/love/podcast/love%20podcast.mp3"
+            ]
+        },
+        "sadness": {
+            "text_affirmation_first": [
+                "My sadness and my depression do not define me.",
+                "I don’t have to be productive to see value in myself.",
+                "I am resilient in the face of any challenge.",
+                "I am in charge of my life, and my happiness and I feel happy and content.",
+                "Not everybody will understand my situation, and it is okay."
+            ],
+            "text_affirmation_last": [
+                "Today, I will face my fears and work to overcome them.",
+                "I will treat myself with kindness, patience, and respect.",
+                "I deserve love, life, and happiness.",
+                "My thoughts are peaceful and calm.",
+                "I let go of all negative thoughts and replace them with positive ones."
+            ],
+            "podcast": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/sadness/podcast/podcast_for_sadness.mp3"
+            ]
+        },
+        "neutral": {
+            "text_affirmation_first": [
+                "I am grateful for everything I have in my life.",
+                "I am independent and self-sufficient.",
+                "I can be whatever I want to be.",
+                "I am constantly growing and evolving into a better person.",
+                "I am inspiring people through my work."
+            ],
+            "text_affirmation_last": [
+                "I feed my spirit. I train my body. I focus my mind. This is my time.",
+                "What I have done today was the best I was able to do today. And for that, I am thankful.",
+                "I am going to forgive myself and free myself. I deserve to forgive and be forgiven.",
+                "I am an unstoppable force of nature.",
+                "Today will be a productive day."
+            ],
+            "podcast": [
+                "https://storage.googleapis.com/moodify-bucket-capstone/mood/neutral/podcast/neutral%20podcast.mp3"
+            ]
+        }
+    }
+}
+```
