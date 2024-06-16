@@ -3,6 +3,7 @@
 dia bakal mengambil mood terbaru sesuai user yang login, lalu dikasih coping recommendation yang sesuai dengan mood nya
 
 endpoint: https://moodify-r25es5rdqq-et.a.run.app/coping/coping-recommendations
+method: GET
 
 - output:
 ```bash
